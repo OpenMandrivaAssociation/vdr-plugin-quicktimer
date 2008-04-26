@@ -2,7 +2,7 @@
 %define plugin	quicktimer
 %define name	vdr-plugin-%plugin
 %define version	0.1.2
-%define rel	6
+%define rel	7
 
 Summary:	VDR plugin: Create new timers quickly
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-quicktimer/
 Source:		http://phivdr.dyndns.org/vdr/vdr-quicktimer/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -22,6 +22,7 @@ timers from TV magazines is fast and does not require browsing EPG.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
