@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Create new timers quickly
 Name:		vdr-plugin-%plugin
 Version:	0.1.2
-Release:	12
+Release:	13
 Group:		Video
 License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-quicktimer/
