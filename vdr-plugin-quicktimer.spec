@@ -6,7 +6,7 @@ Version:	0.1.2
 Release:	13
 Group:		Video
 License:	GPL
-URL:		http://phivdr.dyndns.org/vdr/vdr-quicktimer/
+URL:		https://phivdr.dyndns.org/vdr/vdr-quicktimer/
 Source:		http://phivdr.dyndns.org/vdr/vdr-quicktimer/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
